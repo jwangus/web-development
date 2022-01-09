@@ -72,7 +72,7 @@
         <input type="text" value="{todo.text}"/>
         <button aria-label="Save todo" class="save"></button>
     </form>
-    <form action="" method="">
+    <form action="/todos/{todo.uid}.json" method="delete">
         <button aria-label="Delete todo" class="delete"></button>
     </form>
 </div>
